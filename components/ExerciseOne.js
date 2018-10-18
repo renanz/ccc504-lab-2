@@ -10,7 +10,9 @@ const propTypes = {
 const ExerciseOne = ({ name, buttonClicked }) => (
     <div>
         <h1>Exercise 1</h1>
-        <div style={{ marginBottom: '5px' }}>Instructions: I want to know which button (use its name) has been clicked.</div>
+        <div style={{ marginBottom: '5px' }}>
+            Instructions: I want to know which button (use its name) has been clicked.
+        </div>
         <div style={{ marginBottom: '10px' }}><i>TODO: Implement the action for this Redux cycle</i></div>
         <div style={{ marginBottom: '5px' }}>{name} just got clicked!</div>
         <div>
